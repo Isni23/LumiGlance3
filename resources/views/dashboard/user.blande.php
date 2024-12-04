@@ -8,8 +8,13 @@
 </head>
 <body>
     <div class="container mt-5">
-        <h1>User Dashboard</h1>
-        <p>Welcome, User!</p>
+        <!-- <h1>User Dashboard</h1>
+        <p>Welcome, User!</p> -->
+        <ul class="nav flex-column">
+                        <li class="nav-item">
+                            <a href="{{ route('user.dashboard') }}" class="nav-link">Dashboard</a>
+                        </li>
+                    </ul>
     </div>
 </body>
 </html>
